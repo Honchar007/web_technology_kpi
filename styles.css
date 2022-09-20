@@ -34,10 +34,6 @@ td {
   background: #290054;
 }
 
-.column_second:hover ~ .layer {
-  background: #290054;
-}
-
 .ball {
   width: 250px;
   height: 250px;
@@ -65,4 +61,55 @@ td {
   z-index: 2;
   left: 600px;
   top: 650px;
+}
+
+.container{
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+
+  position: relative;
+}
+
+.first-transform {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background-color: blue;
+  border: 2px solid black;
+  opacity: 0.6;
+
+  position: absolute;
+  top: 150px;
+  left: 100px;
+
+}
+
+.second-transform{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background-color: green;
+  border: 2px solid black;
+  opacity: 0.6;
+
+  position: absolute;
+  top: 150px;
+  left: 170px;
+}
+
+.third-transform{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background-color: red;
+  border: 2px solid black;
+  opacity: 0.6;
+
+  position: absolute;
+  top: 80px;
+  left: 135px;
 }
